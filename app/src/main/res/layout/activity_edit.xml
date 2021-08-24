@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Edit_Activity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_task"
+        android:gravity="top"
+        android:inputType="text"
+        android:hint="Edit your task"
+        android:layout_weight="8"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        >
+    </EditText>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/save"
+        android:textColor="@color/black"
+        android:backgroundTint= "#32CD32"
+        android:layout_weight="92"
+        android:layout_marginBottom="2dp"
+        android:text="@string/save_edit"
+        android:padding="1dp"
+        >
+
+    </Button>
+
+</LinearLayout>

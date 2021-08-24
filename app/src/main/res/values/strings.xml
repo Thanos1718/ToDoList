@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="sr_no">1</string>
+    <string name="note">enter your task</string>
+    <string name="image">to add the new task</string>
+    <string name="add_task">Add your task here</string>
+    <string name="save_edit">Save</string>
+    <string name="image_val">img</string>
+    <string name="priority">Set Priority of Your Task Below</string>
+</resources>
